@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "option": "Lighting Option 1: Black Modern",
+        "image": "https://dummyimage.com/150x150/000/fff",
+        "description": "Amazing option choice!",
+        "price": 10.00
+    },
+    {
+        "id": 2,
+        "option": "Under Cabinet Lighting",
+        "image": "https://dummyimage.com/150x150/000/fff",
+        "description": "Amazing option choice!",
+        "price": 1950.25
+    },
+    {
+        "id": 3,
+        "option": "Comfort Height Toilet",
+        "image": "https://dummyimage.com/150x150/000/fff",
+        "description": "Amazing option choice!",
+        "price": 100.00
+    },
+    {
+        "id": 4,
+        "option": "BBQ Gas Quick Connect",
+        "image": "https://dummyimage.com/150x150/000/fff",
+        "description": "Amazing option choice!",
+        "price": 100.00
+    },
+    {
+        "id": 5,
+        "option": "Glass Railing",
+        "image": "https://dummyimage.com/150x150/000/fff",
+        "description": "Amazing option choice!",
+        "price": 100.00
+    },
+    {
+        "id": 6,
+        "option": "Garburator",
+        "image": "https://dummyimage.com/150x150/000/fff",
+        "description": "Amazing option choice!",
+        "price": 1250.00
+    }
+]
