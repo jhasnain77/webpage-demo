@@ -1,4 +1,4 @@
-import { List, ListItem, Typography, Box, CardMedia, Button } from "@material-ui/core";
+import { List, ListItem, Typography, Box, Button, Grid } from "@material-ui/core";
 
 const choices = require("./Choices.json");
 
@@ -13,16 +13,24 @@ export default function Selections() {
       </ListItem>
       {choices.map((choice) => (
         <ListItem key={choice}>
-          <Box sx={{ px: 1, py: 1, width: 500, height: 120, backgroundColor: "#d9d9d9", borderRadius: "4px" }}>
-            <Typography variant="h6">
-              {choice.option}
-            </Typography>
-            <Typography variant="body1">
-              ${choice.price.toFixed(2)}
-            </Typography>
-            <Button variant="contained">
-              Remove
-            </Button>
+          <Box sx={{ px: 1, py: 1, width: "200%", height: 80, backgroundColor: "#d9d9d9", borderRadius: "4px" }}>
+            <Grid container spacing={4}>
+              <Grid item>
+                <Typography variant="h6">
+                  {choice.option}
+                </Typography>
+                <Typography variant="body1">
+                  ${choice.price.toFixed(2)}
+                </Typography>
+              </Grid>
+              <Grid item>
+                <Button variant="outlined" onClick={() => {
+                  alert('This will remove the item from the selections')
+                }}>
+                  Remove Option
+                </Button>
+              </Grid>
+            </Grid>
           </Box>
         </ListItem>
       ))}
